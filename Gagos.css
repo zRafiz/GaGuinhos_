@@ -1,0 +1,91 @@
+/* Define estilos gerais para o corpo da página */
+body {
+    width: 95%; /* Largura do corpo de 95% da largura da janela */
+    max-width: 800px; /* Largura máxima de 800px */
+    margin: auto; /* Centraliza o corpo na página */
+    background: url(BackgroundG.jpg) center; /* Define uma imagem de fundo centralizada */
+    line-height: 1.5; /* Espaçamento entre linhas de 1.5 vezes o tamanho da fonte */
+    color: rgb(0, 0, 0); /* Cor do texto preta (preto) */
+}
+
+/* Define estilos para elementos com as classes logo, titulo e subtitulo */
+.logo, .titulo, .subtitulo {
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens para esses elementos */
+}
+
+/* Define estilos para o elemento com a classe Logo_Gaguinhos */
+.Logo_Gaguinhos {
+    border-radius: 50%; /* Aplica um raio de borda de 50% para criar um círculo (borda arredondada) */
+}
+.titulo_players, .trofeu{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.5;
+}
+/* Define estilos para a seção principal da página */
+main {
+    margin-top: 50px; /* Adiciona uma margem superior de 50px */
+}
+
+/* Define estilos para uma linha divisória horizontal */
+.linha1 {
+    height: 2px; /* Define a altura da linha como 2 pixels */
+    background-color: rgb(0, 0, 0); /* Define a cor de fundo da linha como preto (preto) */
+}
+
+/* Define estilos para contêineres de jogadores nas linhas 1 e 2 */
+.players_linha1, .players_linha2 {
+    display: flex; /* Aplica um layout flexível para alinhar os elementos horizontalmente */
+    margin: 30px; /* Adiciona margens de 30px a esses contêineres */
+}
+
+/* Define estilos para elementos com as classes player1 a player6 */
+.player1, .player2, .player3, .player4, .player5, .player6 {
+    flex: 1; /* Divide o espaço igualmente entre os elementos */
+    margin: 10px; /* Adiciona margens de 10px a esses elementos */
+}
+
+/* Define estilos para tabelas dentro de elementos com as classes player1 a player6 */
+.player1 table, .player2 table, .player3 table, .player4 table, .player5 table, .player6 table {
+    background-color: chocolate; /* Define a cor de fundo das tabelas como chocolate */
+    border-radius: 10px; /* Aplica um raio de borda de 10px para arredondar as bordas */
+    padding: 10px; /* Adiciona preenchimento interno de 10px */
+    width: 100%; /* Define a largura como 100% da largura do elemento pai */
+    max-width: 100%; /* Define a largura máxima como 100% */
+    flex: 1; /* Divide o espaço igualmente entre as tabelas */
+    margin: 10px auto; /* Adiciona margens de 10px na parte superior e inferior e alinha horizontalmente ao centro */
+    vertical-align: middle; /* Alinha o conteúdo verticalmente no centro */
+    text-align: center; /* Centraliza o texto dentro das tabelas */
+}
+
+/* Define estilos para a descrição "desc_gag" */
+.desc_gag {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 150%;
+    line-height: 110%;
+    font-weight: 600;
+}
+.Logo_insta{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;}
+.instagram{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icone_trofeu{
+    display: block; /* Torna a imagem um bloco para poder usar margin: 0 auto; */
+    margin: 0 auto;  /* Centraliza horizontalmente o bloco */
+    width: 140px;
+}
+.copa_bullet{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.01;
+    color: #bb0c64;
+}
